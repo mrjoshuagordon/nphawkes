@@ -1,6 +1,5 @@
 #' Function to plot the magnitude productivity, spatial, temporal, and background components of the Hawkes model
 #' @param x An object of class nphawkesMSTH
-#' @param type A string indicating the type of plot to generate
 #' @param print A logical indicating whether the plot should be printed or returned
 #' @param ... Other parameters passed in
 #'

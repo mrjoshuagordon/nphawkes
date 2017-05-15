@@ -12,6 +12,8 @@
 
 \item{type}{A string indicating the type of plot to generate}
 
+\item{smooth}{A logical indicator of whether to plot a smoothing curve over the background estimate}
+
 \item{print}{A logical indicating whether the plot should be printed or returned}
 
 \item{...}{Other parameters passed in}

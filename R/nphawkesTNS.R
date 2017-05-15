@@ -22,6 +22,7 @@
 
 nphawkesTNS <- function(data, nbins_t = 25, nbins_mu = 10, bw = 100 , num_iter = 1000, eps = 1e-03, verbose = T, warn = T) {
   if(!('nphData' %in% class(data))) stop('please see help(nphData)')
+  if('vector' %in% class(data)) data <- list(t = as.vector(data))
   if(warn == T & length(data$t) > 12000) stop('please lower number of points')
 
   supDist <- function (x, y) return (max (abs (x - y)))

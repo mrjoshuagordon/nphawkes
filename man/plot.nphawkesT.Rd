@@ -12,8 +12,6 @@
 \item{print}{A logical indicating whether the plot should be printed or returned}
 
 \item{...}{Other parameters passed in}
-
-\item{type}{A string indicating the type of plot to generate}
 }
 \value{
 p A ggplot2 plot
